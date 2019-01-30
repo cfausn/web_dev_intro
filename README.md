@@ -3,3 +3,7 @@ Writeups for each technology are located on the second page of each example (for
 
 ## Node:
 Simply run with `npm start`. Will serve on localhost:3000
+
+## AngularJS:
+Simply open index.html.
+
