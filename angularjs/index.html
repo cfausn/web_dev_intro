@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+	<script type="text/javascript" src="angular_example.js"></script>
+</head>
+<body ng-app="app">
+	<div ng-controller="HelloController">
+		<h2>{{intro_message}}</h2>
+		<br/>
+		<a href={{outside_url}}>Link to Google</a>
+		<br/>
+		<img src={{img_url}}>
+		<br/>
+		<a href={{inside_redirect}}>Writeup</a>
+	</div>
+</body>
+</html>
