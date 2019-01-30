@@ -7,9 +7,9 @@ var fs = require('fs');
 http.createServer(function (request, response){
 
   var uri = require('url').parse(request.url).pathname, query;
-  if (uri == "/page_two"){
+  if (uri == "/writeup"){
     request.setEncoding("utf8");
-    fs.readFile('./page_two.html', function (err, html){
+    fs.readFile('./writeup.html', function (err, html){
       if (err) throw err;
 
       response.writeHeader(200, {"Content-Type": "text/html"});
